@@ -6,7 +6,7 @@ public class happy {
 public static void main(String[] args) {
 String happy = JOptionPane.showInputDialog("are you happy?");	
 	int happyint = Integer.parseInt(happy);
-	int nopathint = Integer.parseInt(nopath);
+	int no = Integer.parseInt(nopath);
 	if(happy.equalsIgnoreCase("yes")) {
 		JOptionPane.showMessageDialog(null,"Keep doing what your doing");	
 	}
