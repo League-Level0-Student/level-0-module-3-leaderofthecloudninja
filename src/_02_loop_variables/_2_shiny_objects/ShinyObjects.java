@@ -28,11 +28,88 @@ public class ShinyObjects {
 	
 		
 		// 2. Ask the user how many shiny objects they want
+
 		String shiny = JOptionPane.showInputDialog("How many shiny objects do you want?");
 		
 		// 3. Play the sound that many times
 		int shinyint = Integer.parseInt(shiny);
-	
+	if(shinyint == 1) {
+	playMisterZee();	
+	}
+	if(shinyint == 2) {
+		playMisterZee();
+		playMisterZee();
+		}
+	if(shinyint == 3) {
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		}
+	if(shinyint == 4) {
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		}
+	if(shinyint == 5) {
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		}
+	if(shinyint == 6) {
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		}
+	if(shinyint == 7) {
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		}
+	if(shinyint == 8) {
+		playMisterZee();	
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		}
+	if(shinyint == 9) {
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		
+		}
+	if(shinyint == 10) {
+		playMisterZee();	
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		playMisterZee();
+		}
 	}
 
 	/********************   Use this method. DON'T CHANGE THE CODE BELOW  ***********************/
