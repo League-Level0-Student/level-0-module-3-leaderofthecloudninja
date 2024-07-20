@@ -28,6 +28,9 @@ JOptionPane.showMessageDialog(null, "*typing noises* ...and i am...finished! ok,
  JOptionPane.showMessageDialog(null, "Game: You punch the monster");
  JOptionPane.showMessageDialog(null, "Game: It does 999 damage!");
  JOptionPane.showMessageDialog(null, "Game: You Win!");
+ JOptionPane.showMessageDialog(null, "???: ...");
+ JOptionPane.showMessageDialog(null, "???: You...shouldnt be able to one shot either...");
+ JOptionPane.showMessageDialog(null, "???: You know what...im too tired for this right now...*typing noises*");
 }
  if(fight.equalsIgnoreCase("run")){
 	 JOptionPane.showMessageDialog(null, "Game: You run away!");
@@ -39,7 +42,8 @@ JOptionPane.showMessageDialog(null, "*typing noises* ...and i am...finished! ok,
 	 JOptionPane.showMessageDialog(null, "Creator: I made the game you are in right now!!!!!!!!!!");
 	 JOptionPane.showInputDialog(null, "Creator: So, *Player Name Here*, how is the game so far?");
 	 JOptionPane.showMessageDialog(null, "Creator: *Writing down answer* aaaaaaand...Done! thank you for your input!");
-	
+	 JOptionPane.showMessageDialog(null, "Game: You have been kicked from the game.");
+	 
 
 
 

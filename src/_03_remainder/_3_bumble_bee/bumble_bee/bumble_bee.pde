@@ -16,7 +16,7 @@ int x = 50;
 Use remainder to make the colors alternate between yellow and black
 */
 for (int i=1; i<=1000; i++) {
-    int number = new Random().nextInt(100);
+    int 
     if (number % 2 == 0) {
         fill(250,250,250);
     }
